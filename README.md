@@ -1,7 +1,7 @@
 # mtest
 For testing matrix multiplication performance (dgemm) on CPU and GPU
 
-Needs NVIDIA (PGI) compiler suite plus Intel' MKL.
+Needs NVIDIA (PGI) compiler suite plus Intel's MKL.
 If both are present, simply type:
 
 make
