@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: configure
-      run: apt-get install intel-mkl
+      run: sudo apt-get install intel-mkl
 
     - name: Install dependencies
       run: make
